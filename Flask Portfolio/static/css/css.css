@@ -1,0 +1,15 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Custom styles for navbar */
+.navbar-custom {
+    background-color: #333;
+    color: white;
+}
+
+/* Custom styles for footer */
+.footer-custom {
+    background-color: #f8f9fa;
+    color: #5a5a5a;
+}
