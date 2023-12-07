@@ -2,9 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>About Me - Mindful Data: Mapping Meaning with Addison Sans</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Add custom CSS file if you have one -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Mindful Data</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <h1>About Addison Sans</h1>
+        <p>
+            Welcome to "Mindful Data: Mapping Meaning with Addison Sans." I am Addison, a data enthusiast with a passion for uncovering insights and stories hidden within numbers. With a background in [Your Background], I've dedicated my career to [Your Career Goals or Aspirations].
+        </p>
+        <p>
+            This blog is my platform to share my journey, experiences, and the lessons I've learned in the world of data. Here, you'll find articles on [Topics You Cover], tutorials, and case studies that showcase the power of data in making informed decisions and driving change.
+        </p>
+        <p>
+            When I'm not crunching numbers or building programs, you'll find me trying to get outdoors as much as humanly possible. I believe in the power of lifelong learning and am always eager to explore new challenges and opportunities.
+        </p>
+        <p>
+            Thank you for visiting my blog. I hope you find the content insightful and inspiring. Feel free to reach out to me through the contact page for collaborations, questions, or just to say hi!
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4 mt-4">
+        <!-- ... Your existing footer content ... -->
+    </footer>
 </body>
 </html>

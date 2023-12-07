@@ -1,4 +1,4 @@
-title: Introduction to Pandas DataFrames and Data Cleaning
+title: Data Cleaning with Pandas
 date: 2023-04-01
 description: A beginner's guide to understanding Pandas DataFrames and basic data cleaning techniques in data science.
 
