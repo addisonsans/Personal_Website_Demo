@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Custom styles for navbar */
+.navbar-custom {
+    background-color: #333;
+    color: white;
+}
+
+/* Custom styles for footer */
+.footer-custom {
+    background-color: #f8f9fa;
+    color: #5a5a5a;
+}
+
+/* custom.css */
+.blog-post-header {
+    margin-bottom: 2rem;
+}
+
+.blog-post-title {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.blog-post-meta {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.blog-post-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
